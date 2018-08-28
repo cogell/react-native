@@ -9,6 +9,8 @@
 
 'use strict';
 
+require('@babel/polyfill');
+
 // gracefulify() has to be called before anything else runs
 require('graceful-fs').gracefulify(require('fs'));
 
